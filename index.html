@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Educational Agent</title>
+
+<link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<link rel="stylesheet" href="./styles.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/95dc93da07.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+
+<body>
+<!--Cursor -->
+<div class="cursor"></div>
+
+<!-- Nav Bar -->
+<nav>
+  <div class="company"><h1>Educational Agent</h1></div>
+  <div class="navItems">
+   <span class="active"><a href="#pageTop" >Home</a></span>
+   <span><a href="#Universities">Universities</a></span>
+   <span><a href="#Consultants">Consultants</a></span>
+   <span><a href="#News">News</a></span>
+   <span><a href="#Contact">Contact</a></span>
+   <span><a href="#About">About</a></span>
+   <span class="lightDark"><i class="fas fa-sun" 
+    style="color: gold; 
+    text-shadow: -0.7px 0 gray, 0 0.7px gray, 0.7px 0 gray, 0 -0.7px gray;"></i><i class="fas fa-moon"></i></span>
+  </div>
+  <div class="humburger" >
+    <div><hr></div>
+   <div><hr></div>
+   <div><hr></div>  
+  </div>
+</nav>
+<hr>
+
+<!-- Side Nav Bar -->
+<section class="sideNav">
+  <span class="exitSideNav">+</span>
+  <div class="active"><a href="#pageTop" >Home</a></div>
+  <div><a href="#Universities">Universities</a></div>
+  <div><a href="#Consultants">Consultants</a></div>
+  <div><a href="#News">News</a></div>
+  <div><a href="#Contact">Contact</a></div>
+  <div><a href="#About">About</a></div>
+  <div class="lightDark"><i class="fas fa-sun" style="color: gold; 
+      text-shadow: -0.7px 0 gray, 0 0.7px gray, 0.7px 0 gray, 0 -0.7px gray;"></i><i class="fas fa-moon"></i></div>
+</section>
+
+<!-- Cover Message -->
+<section class="cover" id="pageTop">
+   <div class="coverMsg">
+   <h1>Finding A Perfect University For You?</h1>
+   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, voluptate.</p>
+  </div>
+</section>
+
+<!-- How It Works -->
+<section class="howItWorks">
+  <h1>How It Works</h1>
+  <div class="steps">
+    <div>
+      <i class="fas fa-search"></i>
+      <h3>Do Research About Universities</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam inventore numquam voluptate quidem officiis veritatis.</p>
+    </div>
+    <div>
+      <i class="fas fa-edit"></i>
+      <h3>Apply An Admission Form</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam inventore numquam voluptate quidem officiis
+      veritatis.</p>
+    </div>
+    <div>
+      <i class="fas fa-hourglass-half"></i>
+      <h3>Wait For An Offer</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam inventore numquam voluptate quidem officiis
+      veritatis.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Universities -->
+<section class="universities" id="Universities">
+  <h1>Universities</h1><br>
+  <span>Click Images For More Information</span>
+  <div class="autoplay">    
+  <div>
+    <a href="https://www.anu.edu.au">
+      <img src="./images/anu.png" alt="Australia National University" title="Australia National University">
+    </a>
+    <div class="location">
+      <h3>Australia National University</h3>
+      <address>Canberra ACT 0200, Australia</address>
+    </div>
+  </div>
+
+  <div>
+    <a href="https://www.unimelb.edu.au">
+      <img src="./images/uniMelbourne.jpeg" alt="University Of Melbourne" title="University Of Melbourne">
+    </a>
+    <div class="location">
+      <h3>University Of Melbourne</h3>
+      <address>Parkville VIC 3010, Australia</address>
+    </div>
+  </div>
+
+  <div>
+    <a href="https://www.unsw.edu.au">
+      <img src="./images/unsw.jpeg" alt="University Of New South Whale" title="University Of New South Whale">
+    </a>
+    <div class="location">
+      <h3>University Of New South Whale</h3>
+      <address>Sydney NSW 2052, Australia</address>
+    </div>
+  </div>
+
+  <div>
+    <a href="https://uwaterloo.ca">
+      <img src="./images/uniWaterloo.jpg" alt="University Of Waterloo" title="University Of Waterloo">
+    </a>
+    <div class="location">
+      <h3>University Of Waterloo</h3>
+      <address>200 University Ave W, ON N2L 3G1, Canada</address>
+    </div>
+  </div>
+
+  <div>
+    <a href="https://www.utoronto.ca">
+      <img src="./images/uniToronto.jpg" alt="University Of Toronto" title="University Of Toronto">
+    </a>
+    <div class="location">
+      <h3>University Of Toronto</h3>
+      <address>27 King's College Cir, ON M5S 1A1, Canada</address>
+    </div>
+  </div>
+
+  <div>
+    <a href="https://www.nus.edu.sg">
+      <img src="./images/nus.jpg" alt="National University Of Singapore" title="National University Of Singapore">
+    </a>
+    <div class="location">
+      <h3>National University Of Singapore</h3>
+      <address>21 Lower Kent Ridge Rd, Singapore 119077</address>
+    </div>
+  </div>
+  
+  <div>
+    <a href="https://www.cam.ac.uk">
+      <img src="./images/uniCambridge.jpg" alt="University Of Cambridge" title="University Of Cambridge">
+    </a>
+    <div class="location">
+      <h3>University Of Cambridge</h3>
+      <address>Trinity Ln, Cambridge CB2 1TN, UK</address>
+    </div>
+  </div>
+
+  <div>
+    <a href="https://www.ox.ac.uk">
+      <img src="./images/uniOxford.jpeg" alt="University Of Oxford" title="University Of Oxford">
+    </a>
+    <div class="location">
+      <h3>University Of Oxford</h3>
+      <address>Oxford OX1 2JD, UK</address>
+    </div>
+  </div>
+
+  <div>
+    <a href="https://umich.edu">
+      <img src="./images/uniMichigan.jpg" alt="University Of Michigan" title="University Of Michigan">
+    </a>
+    <div class="location">
+      <h3>University Of Michigan</h3>
+      <address>500 S State St, Ann Arbor, MI 48109, USA</address>
+    </div>
+  </div>
+
+  <div>
+    <a href="https://www.usf.edu">
+      <img src="./images/usf.jpeg" alt=">University Of South Florida" title=">University Of South Florida">
+    </a>    
+    <div class="location">
+      <h3>University Of South Florida</h3>
+      <address>4202 E Fowler Ave, Tampa, FL 33620, USA</address>
+    </div>
+  </div>
+
+  <div>
+    <a href="https://www.baylor.edu">
+      <img src="./images/uniBaylor.jpeg" alt="Baylor University" title="Baylor University">
+    </a>
+    <div class="location">
+      <h3>Baylor University</h3>
+      <address>1311 S 5th St, Waco, TX 76706, USA</address>
+    </div>
+  </div>
+  
+  <div>
+    <a href="https://www.lipscomb.edu">
+      <img src="./images/uniLipscomb.jpg" alt="Lipscomb University" title="Lipscomb University">
+    </a>
+    <div class="location">
+      <h3>Lipscomb University</h3>
+      <address>1 University Park Dr, Nashville, USA</address>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- Consultants -->
+<section class="consultants" id="Consultants">
+<h1>Consultants</h1>
+<div class="consultants-container">  
+  <div class="consultant">
+    <img src="./images/employee1.jpeg" alt="Dora Heylison" title="Dora Heylison">
+    <div class="name">
+      <h4>Dora Heylison</h4>
+      <p>Educational Consultant</p>
+    </div>
+    <div class="contact">
+      <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+      <a href="https://www.instagram.com"><i class="fab fa-instagram-square"></i></a>
+      <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
+    </div>
+  </div>
+
+  <div class="consultant">
+    <img src="./images/employee2.jpeg" alt="Mark Philips" title="Mark Philips">
+    <div class="name">
+      <h4>Mark Philips</h4>
+      <p>Educational Consultant</p>
+    </div>
+    <div class="contact">
+      <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+      <a href="https://www.instagram.com"><i class="fab fa-instagram-square"></i></a>
+      <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
+    </div>
+  </div>
+
+  <div class="consultant">
+    <img src="./images/employee3.jpeg" alt="Angel Hill" title="Angel Hill">
+    <div class="name">
+      <h4>Angel Hill</h4>
+      <p>Educational Consultant</p>
+    </div>
+    <div class="contact">
+      <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+      <a href="https://www.instagram.com"><i class="fab fa-instagram-square"></i></a>
+      <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
+    </div>
+  </div>
+
+  <div class="consultant">
+    <img src="./images/employee4.jpeg" alt="Andrew Smith" title="Andrew Smith">
+    <div class="name">
+      <h4>Andrew Smith</h4>
+      <p>Educational Consultant</p>
+    </div>
+    <div class="contact">
+      <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+      <a href="https://www.instagram.com"><i class="fab fa-instagram-square"></i></a>
+      <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
+    </div>
+  </div>
+
+  <div class="consultant">
+    <img src="./images/employee5.jpeg" alt="Emily Kelvin" title="Emily Kelvin">
+    <div class="name">
+      <h4>Emily Kelvin</h4>
+      <p>Educational Consultant</p>
+    </div>
+    <div class="contact">
+      <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+      <a href="https://www.instagram.com"><i class="fab fa-instagram-square"></i></a>
+      <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
+    </div>
+  </div>
+
+  <div class="consultant">
+    <img src="./images/employee6.jpeg" alt="Claire Decker" title="Claire Decker">
+    <div class="name">
+      <h4>Claire Decker</h4>
+      <p>Educational Consultant</p>
+    </div>
+    <div class="contact">
+      <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+      <a href="https://www.instagram.com"><i class="fab fa-instagram-square"></i></a>
+      <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- News -->
+<section class="news" id="News">
+  <img src="./images/bestAgent.jpeg" alt="Best Agent">
+  <div class="newsText">
+    <h1>We Are The Best Educational Agent</h1>
+    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, nam.</h3><br>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, commodi eligendi odit debitis quaerat blanditiis quis dignissimos fugiat exercitationem aspernatur.</p>
+    <ul>
+      <li>commodi eligendi odit</li>
+      <li>Praesentium, commodi eligendi odit debitis</li>
+      <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+      <li>fugiat exercitationem</li>
+      <li>sit amet consectetur</li>
+    </ul>
+    <button class="btn" onclick="alert('Thank You For Your Curiousity')">Read More</button>
+  </div>
+</section>
+
+<!-- Services -->
+<section class="services" id="Services">
+  <h1>Services</h1>
+  <div class="services-container">
+    <div class="service">
+      <i class="fas fa-lightbulb"></i>
+      <div>
+        <h3>Cosulting</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, facilis quae laboriosam assumenda excepturi facere!</p><br>
+        <a onclick="alert('Thank You For Your Curiousity')">Learn More</a>
+      </div>
+    </div>
+
+    <div class="service">
+      <i class="fas fa-search"></i>
+      <div>
+        <h3>Search University</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, facilis quae laboriosam assumenda excepturi
+          facere!</p><br>
+        <a onclick="alert('Thank You For Your Curiousity')">Learn More</a>
+      </div>
+    </div>
+
+    <div class="service">
+      <i class="fas fa-edit"></i>
+      <div>
+        <h3>Application</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, facilis quae laboriosam assumenda excepturi
+          facere!</p><br>
+        <a onclick="alert('Thank You For Your Curiousity')">Learn More</a>
+      </div>
+    </div>
+
+    <div class="service">
+      <i class="fab fa-avianex"></i>
+      <div>
+        <h3>Visa</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, facilis quae laboriosam assumenda excepturi
+          facere!</p><br>
+        <a onclick="alert('Thank You For Your Curiousity')">Learn More</a>
+      </div>
+    </div>
+
+    <div class="service">
+      <i class="fas fa-thumbs-up"></i>
+      <div>
+        <h3>Guarentee</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, facilis quae laboriosam assumenda excepturi
+          facere!</p><br>
+        <a onclick="alert('Thank You For Your Curiousity')">Learn More</a>
+      </div>
+    </div>
+
+    <div class="service">
+      <i class="fas fa-home"></i>
+      <div>
+        <h3>Find Accommodation</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, facilis quae laboriosam assumenda excepturi
+        facere!</p><br>
+        <a onclick="alert('Thank You For Your Curiousity')">Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Feedback or Review -->
+<section class="feedbacks" id="Reviews">
+  <h1>What Our Clients Are Saying</h1>
+  <div class="single-item">
+    <div class="feedback">
+      <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos modi debitis quam, voluptatem repudiandae expedita molestias aperiam commodi officia magni provident aut, eos repellendus fuga at. Natus aut nisi pariatur."</blockquote><br>
+      <div class="author">
+        <img src="./images/Feedback1.jpeg" alt="Client 1">
+        <span>Jonus Brown</span>
+      </div>
+    </div>
+
+    <div class="feedback">
+      <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos modi debitis quam, voluptatem repudiandae expedita
+        molestias aperiam commodi officia magni provident aut, eos repellendus fuga at. Natus aut nisi pariatur."</blockquote><br>
+      <div class="author">
+        <img src="./images/Feedback2.jpeg" alt="Client 2">
+        <span>Miley Holmes</span>
+      </div>
+    </div>
+
+    <div class="feedback">
+      <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos modi debitis quam, voluptatem repudiandae expedita
+        molestias aperiam commodi officia magni provident aut, eos repellendus fuga at. Natus aut nisi pariatur."</blockquote><br>
+      <div class="author">
+        <img src="./images/Feedback3.jpeg" alt="Client 3">
+        <span>Nick Wason</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Us -->
+<section class="contactUs" id="Contact">
+  <h1>Contact Us</h1>
+  <div class="form">
+  <form action="https://formsubmit.co/54968fb19035cb107ee1965658003f00" method="POST" autocomplete="off">
+    <h3>Contact Form</h3><br>
+
+    <label for="name">Name</label><br>
+    <input type="text" name="name" id="name" required><br><br>
+
+    <label for="email">Email</label><br>
+    <input type="email" name="email" id="email" placeholder="eg. EducationalAgent@gmail.com" required><br><br>
+
+    <label for="subject">Subject</label><br>
+    <input type="text" name="subject" id="subject" required><br><br>
+
+    <label for="message">Message</label><br>
+    <textarea name="message" id="message" cols="30" rows="5" placeholder="Write your message here..." required></textarea><br><br>
+
+    <button type="submit">Send Message</button>
+  </form>
+  </div>
+  <div class="contactInfo">
+    <h3>Address</h3>
+    <address>Bargayar Road, Sanchaung Township, Yangon</address><br>
+    <h3>Phone</h3>
+    <p>959-141-414-141</p><br>
+    <h3>Email Address</h3>
+    <p>EducationalAgent@gmail.com</p>
+  </div>
+</section>
+<div class="clear"></div>
+
+<!-- About -->
+<section class="about" id="About">
+  <div>
+  <h3>About Educational Agent</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptatum quisquam, beatae tempora rem cupiditate voluptatem at natus, optio, rerum aperiam alias qui eligendi repellendus illum id nulla perspiciatis dignissimos!</p>
+</div>
+
+<div class="quickLinks">
+  <h3>Quick Links</h3>
+  <ul>
+    <li><a href="#About">About Us</a></li>
+    <li><a href="#Contact">Contact Us</a></li>
+    <li><a href="#Reviews">Reviews</a></li>
+    <li><a href="#Services">Services</a></li>
+  </ul>
+</div>
+
+<div class="followUs">
+  <h3>Subscribe to our Newsletter</h3>
+  <form action="https://formsubmit.co/54968fb19035cb107ee1965658003f00" method="POST" autocomplete="off">
+  <input type="email" name="subscribedEmail" placeholder="Enter Email">
+  <button type="submit">Send</button>
+  </form><br>
+  <h3>Follow Us</h3>
+  <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+  <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+  <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+</div>
+</section>
+
+<!-- Copyright -->
+<section class="copyright">
+  <hr>
+  <p>Copyright &copy; 2022 All rights reserved | This template is made with &#9825; by Skylar</p>
+</section>
+
+<!-- Back To Top -->
+<a class="backToTop" href="#pageTop" title="Go Back To Top"><i class="fas fa-rocket"></i></a>
+
+<script src="./script.js"></script>
+</body>
+</html>
