@@ -17,7 +17,8 @@ This dummy website is designed for an educational agent that offers services to 
 
 ## About The Project
 By utilizing my knowledge of HTML and CSS, I have developed a website template that features an impressive cursor design with a visually appealing hovering animation. The template also incorporates a convenient toggle switch, allowing users to seamlessly switch between light and dark modes.
-![](https://github.com/Skylar-KyiShinKhant/Educational-Agent/blob/Edit-README.md/EducationalAgent.gif)
+
+![EducationalAgent.gif](https://github.com/Skylar-KyiShinKhant/Educational-Agent/blob/main/EducationalAgent.gif)
 
 ## Built with
 - HTML
