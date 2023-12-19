@@ -1,4 +1,5 @@
 # [Educational-Agent](https://skylar-kyishinkhant.github.io/Educational-Agent/)
+This dummy website is designed for an educational agent that offers services to students by facilitating a seamless university application process.
 
 <details> 
 <summary>Table of Contents</summary>
