@@ -1,4 +1,4 @@
-# Educational-Agent
+# [Educational-Agent](https://skylar-kyishinkhant.github.io/Educational-Agent/)
 
 <details> 
 <summary>Table of Contents</summary>
