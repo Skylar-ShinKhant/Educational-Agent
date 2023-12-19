@@ -4,15 +4,15 @@ This dummy website is designed for an educational agent that offers services to 
 <details> 
 <summary>Table of Contents</summary>
   
-- [About The Project](https://github.com/Skylar-KyiShinKhant/Educational-Agent/blob/Edit-README.md/README.md#about-the-project)
-- [Built with](https://github.com/Skylar-KyiShinKhant/Educational-Agent/blob/Edit-README.md/README.md#built-with)
-- [Getting Started](https://github.com/Skylar-KyiShinKhant/Educational-Agent/blob/Edit-README.md/README.md#getting-started)
-- [Prerequisites](https://github.com/Skylar-KyiShinKhant/Educational-Agent/blob/Edit-README.md/README.md#prerequisites)
-- [Setting up](https://github.com/Skylar-KyiShinKhant/Educational-Agent/blob/Edit-README.md/README.md#setting-up)
-- [Contributing](https://github.com/Skylar-KyiShinKhant/Educational-Agent/blob/Edit-README.md/README.md#contributing)
-- [License](https://github.com/Skylar-KyiShinKhant/Educational-Agent/blob/Edit-README.md/README.md#license)
-- [Contact](https://github.com/Skylar-KyiShinKhant/Educational-Agent/blob/Edit-README.md/README.md#contact)
-- [Acknoledgements](https://github.com/Skylar-KyiShinKhant/Educational-Agent/blob/Edit-README.md/README.md#acknoledgements)
+- [About The Project](https://github.com/Skylar-KyiShinKhant/Educational-Agent#about-the-project)
+- [Built with](https://github.com/Skylar-KyiShinKhant/Educational-Agent#built-with)
+- [Getting Started](https://github.com/Skylar-KyiShinKhant/Educational-Agent#getting-started)
+- [Prerequisites](https://github.com/Skylar-KyiShinKhant/Educational-Agent#prerequisites)
+- [Setting up](https://github.com/Skylar-KyiShinKhant/Educational-Agent#setting-up)
+- [Contributing](https://github.com/Skylar-KyiShinKhant/Educational-Agent#contributing)
+- [License](https://github.com/Skylar-KyiShinKhant/Educational-Agent#license)
+- [Contact](https://github.com/Skylar-KyiShinKhant/Educational-Agent#contact)
+- [Acknoledgements](https://github.com/Skylar-KyiShinKhant/Educational-Agent#acknoledgements)
 </details>
 
 ## About The Project
