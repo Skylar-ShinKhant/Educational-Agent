@@ -56,8 +56,3 @@ Distributed under the MIT License. See ```LICENSE.txt``` for more information.
 <p>Name : Skylar Kyi Shin Khant</p>
 <p>Email : kyishinkhant2003@gmail.com</p>
 <p>Project Link : https://github.com/Skylar-KyiShinKhant/Educational-Agent.git</p>
-
-## Acknoledgements
-In acknowledgment of the completion of this project, I formally express my gratitude to 
-- [Othneil's Best README Template](https://github.com/othneildrew/Best-README-Template)
-- [Jake's How to Fork a Repo and Pull a PR](https://jarv.is/notes/how-to-pull-request-fork-github/)
