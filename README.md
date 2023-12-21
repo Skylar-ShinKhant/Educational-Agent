@@ -12,7 +12,6 @@ This dummy website is designed for an educational agent that offers services to 
 - [Contributing](https://github.com/Skylar-KyiShinKhant/Educational-Agent#contributing)
 - [License](https://github.com/Skylar-KyiShinKhant/Educational-Agent#license)
 - [Contact](https://github.com/Skylar-KyiShinKhant/Educational-Agent#contact)
-- [Acknoledgements](https://github.com/Skylar-KyiShinKhant/Educational-Agent#acknoledgements)
 </details>
 
 ## About The Project
